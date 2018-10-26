@@ -1,14 +1,14 @@
-# Pseudocode "Average an Array
+# Pseudocode to Average an Array
 
 ## Learning Goals
 
-- Create Code from Pseudocode
+- Create code from pseudocode
 
 ## Introduction
 
 A simple test case to practice your skill at applying the Flatiron Process is
 to pseudocode the averaging (mean) of an Array of numbers. Keep in mind, this
-is _pseudocode_: do not use programming language built-in math function
+is _pseudocode_: do not use programming language built-in math function.
 
 ## Create Code from Pseudocode
 
@@ -24,7 +24,7 @@ For example:
 
 ## Submitting this Lab
 
-When you're done providing the psudocode, you'll need to submit this lab using
+When you're done providing the pseudocode, you'll need to submit this lab using
 `learn submit`.
 
 ## Conclusion
