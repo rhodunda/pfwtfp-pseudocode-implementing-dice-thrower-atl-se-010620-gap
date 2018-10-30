@@ -33,6 +33,10 @@ an array. If we wanted to simulate rolling _two_ 6-sided die, we just call
 rolls, though? We also need a way to store results over time. While an array
 of arrays would work, a _hash_ of generated sets would be a bit clearer.
 
+Finally, we want to start writing some sort of special condition - a way to
+check if one or more rolls meets the criteria we set. Lets say for now that we
+want to check if the last roll adds up to `7`.
+
 Before we get to writing code, lets apply the Flatiron process and pseudocode
 what we need to do for implementing the conditions above. That way, when we get
 to writing the code itself, we'll have a clearer idea of what to write and how
