@@ -56,8 +56,7 @@ add_to_history(generate_set(5))
 But after a handful rolls, this could become pretty complicated to access. How
 would we store rolls in a `Hash` instead?
 
-In `02_special_roll_conditions_pseudocode.html`, follow the Flatiron Process
-steps and write out the pseudocode for how you would implement this method.
+In `01_roll_history_pseudocode.html`, pseudocode storing history in a `Hash`.
 
 ## Special Roll Conditions
 
@@ -69,7 +68,7 @@ While each game has different rules for what is considered a 'special' roll,
 let's focus on a single one for practice: a method that checks if a roll of one
 or more dice adds up to `7`. The method should simply return `true` or `false`.
 
-In `0202_special_roll_conditions_pseudocode.html`, follow the Flatiron Process
+In `02_special_roll_conditions_pseudocode.html`, follow the Flatiron Process
 steps and write out the pseudocode for how you would implement this method.
 
 <img src="https://curriculum-content.s3.amazonaws.com/pfwtfp/pfwtfp-pseudocode-implement-dice-thrower/seven.jpg" alt="seven" width="200px"/>
