@@ -2,15 +2,43 @@
 
 ## Learning Goals
 
-- Create code from pseudocode
+- Design solutions using pseudocode
 
 ## Introduction
 
-In the previous lesson, we created two methods, `throw-die` and `generate_set`,
-which allow us to simulate the roll of a single die and create an array of
-roll results.
+In the last lab, we created two methods, `throw_die` and `generate_set`,
+which allow us to simulate the roll of a single die and create an `Array` of
+roll results. With just these two methods, we can simulate rolling dice for
+all sorts of board games. Want to play Monopoly with our methods? All we'd need
+to do is load up [IRB] in our terminal, paste in our methods and then, whenever
+someone takes a turn, write:
 
-Our next task is to start expanding on what we've written. First, we'd like to
+```sh
+2.5.1 :001 > generate_set(2) # calls throw_die twice and returns an array
+=> [1, 4] # you rolled a total of five and landed on Reading Railroad!
+```
+
+Our next task is to expand on what we've written. Right now we've got enough
+code to play Monopoly and Snakes and Ladders, but with a few more methods, we
+could simulate rolling dice for all sorts of games!
+
+In this lesson, we will pseudocode out
+
+## Keeping
+
+Some dice games involve
+multiple rolls
+
+In most dice games, players roll more than one die at a time. In the previous
+lesson, `generate_set` allowed us simulate this by storing multiple results in
+an array. If we wanted to simulate rolling _two_ 6-sided die, we just call
+`throw_die` twice and store both results in one array.
+
+What about multiple
+rolls, though? We also need a way to store results over time. While an array
+of arrays would work, a _hash_ of generated sets would be a bit clearer.
+
+First, we'd like to
 be able to set the number of sides on the die that we roll.
 
 At minimum, a die can
@@ -25,13 +53,6 @@ And at maximum, 100 sides:
 We'd also like to have some way to prevent our program from rolling a die that
 has less than 4 sides or more than 100, prompting the user to re-enter a number
 if invalid.
-
-In most dice games, players roll more than one die at a time. In the previous
-lesson, `generate_set` allowed us simulate this by storing multiple results in
-an array. If we wanted to simulate rolling _two_ 6-sided die, we just call
-`throw_die` twice and store both results in one array. What about multiple
-rolls, though? We also need a way to store results over time. While an array
-of arrays would work, a _hash_ of generated sets would be a bit clearer.
 
 Finally, we want to start writing some sort of special condition - a way to
 check if one or more rolls meets the criteria we set. Lets say for now that we
@@ -67,3 +88,5 @@ With your pseudocode in place, you're ready to code the implementation of dice
 thrower. In the next lesson, try to get everything working the very first time.
 Pseudocoding takes the variability out of _encoding_ ideas in programming
 languages.
+
+[IRB]
