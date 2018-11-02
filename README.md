@@ -110,3 +110,5 @@ Taking the time to pseudocode ensures that when we get to writing the code
 itself, we'll have a clearer idea of how to approach the problem.
 
 [irb]: http://ruby-doc.org/stdlib-2.5.1/libdoc/irb/rdoc/IRB.html
+[Liar's Dice]: https://en.wikipedia.org/wiki/Liar%27s_dice
+[Greed]: http://thehobbyts.com/greed-dice-game-rules/
