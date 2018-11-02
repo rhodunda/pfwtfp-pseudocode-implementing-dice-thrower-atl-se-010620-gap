@@ -81,8 +81,8 @@ dice, but what if we wanted to set the number of sides on the die that we roll?
 
 <img src="https://curriculum-content.s3.amazonaws.com/pfwtfp/pfwtfp-pseudocode-implement-dice-thrower/polyhedral-dice.jpg" alt="3-sided dice" width="200px"/>
 
-At minimum, a die can
-have 3 sides (any fewer and we would be flipping heads or tails):
+At minimum, a die can have 3 sides (any fewer and we would be flipping heads or
+tails):
 
 <img src="https://curriculum-content.s3.amazonaws.com/pfwtfp/pfwtfp-pseudocode-implement-dice-thrower/3-sided-dice.jpg" alt="3-sided dice" width="200px"/>
 
